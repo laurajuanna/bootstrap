@@ -12,6 +12,11 @@ header {
     color: #fff;
 }
 
+.color2 {
+    background: #2c3e50;
+    color: #fff;
+}
+
 aside {
     background: #c0392b;
     color: #fff;
@@ -20,4 +25,24 @@ aside {
 footer {
     background: #16a085;
     color: #fff;
+}
+
+.customLink, .customLink:hover{
+    color:#2c3e50;
+    text-decoration: none;
+  }
+
+.customLink, .customLink:link{
+    color: #a4d2ff;
+    text-decoration: underline;
+}
+
+.customLink, .customLink:visited{
+    color: #a4d2ff;
+    text-decoration: underline;
+}
+  
+.customLink, .customLink:active{
+    color: #fff;
+    text-decoration: none;
 }
